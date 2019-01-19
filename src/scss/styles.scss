@@ -1,0 +1,99 @@
+/* You can add global styles to this file, and also import other style files */
+/* Our custome Bootstrap variable */
+@import 'variable';
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Global style */
+body {
+  font-family: $font-robot;
+  background-color: $body-bg;
+  padding: 28px 28px 0;
+  overflow: auto;
+}
+
+/* Media 1199px */
+@media (max-width: 1199px) {
+  // header .text-header h1 {
+  //   width: 94%;
+  //   padding: 16px 0 16px 92px
+  // }
+}
+
+/* Media 991px */
+@media (max-width: 991px) {
+  body {
+    padding: 0;
+  }
+
+  // .navbar-scroll {
+  //   top: 0;
+  //   left: 0;
+  //   right: 0;
+  //   padding: 0 10p;
+  // }
+
+  // .navbar .navbar-brand {
+  //   font-size: 36px
+  // }
+
+  // .navbar .navbar-nav {
+  //   text-align: center;
+  // }
+
+  // .navbar .nav-item a:before {
+  //   display: none
+  // }
+
+  // .navbar-light .navbar-toggler {
+  //   border: 0;
+  //   outline: none
+  // }
+
+  // header .text-header {
+  //   margin: 0vmin auto 5vmin;
+  //   text-align: center;
+  // }
+
+  // header .image-header {
+  //   margin: 64px auto 37px;
+  // }
+
+  // header .image-header img,
+  // header .image-header .icons-head {
+  //   margin-right: 0;
+  // }
+
+  // header .text-header h1 {
+  //   margin: 0;
+  //   background: none;
+  //   padding: 0;
+  //   width: 100%;
+  // }
+}
+
+/* Media 767px */
+@media (max-width:767px) {
+
+  // h2,
+  // h1 {
+  //   font-size: 28px !important
+  // }
+
+  // h4 {
+  //   font-size: 20px !important
+  // }
+
+  // p {
+  //   font-size: 15px !important
+  // }
+}
+
+/* Media 575px */
+@media (max-width:575px) {
+  // header .text-header h1 {
+  //   line-height: 55px;
+  //   padding: 0;
+  //   width: auto
+  // }
+}
